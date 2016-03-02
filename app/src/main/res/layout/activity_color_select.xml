@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/color_select_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:text="@string/color_select_title"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/frame_style"
+        />
+
+    <Button
+        android:id="@+id/color_select_back"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/color_select_title"
+        android:layout_marginLeft="10dp"
+        android:text="@string/color_selcet_back"
+        android:background="@drawable/frame_style"
+        />
+
+    <TextView
+        android:id="@+id/color_select_r_text"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/color_select_title"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="R"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/frame_style"
+        />
+
+    <EditText
+        android:id="@+id/color_select_r_edit"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/color_select_r_text"
+        android:layout_alignTop="@+id/color_select_r_text"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/frame_style"
+        />
+
+    <TextView
+        android:id="@+id/color_select_g_text"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/color_select_r_text"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="G"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/frame_style"
+        />
+
+    <EditText
+        android:id="@+id/color_select_g_edit"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/color_select_g_text"
+        android:layout_alignTop="@+id/color_select_g_text"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/frame_style"
+        />
+
+    <TextView
+        android:id="@+id/color_select_b_text"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/color_select_g_text"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="B"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/frame_style"
+        />
+
+    <EditText
+        android:id="@+id/color_select_b_edit"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/color_select_b_text"
+        android:layout_alignTop="@+id/color_select_b_text"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/frame_style"
+        />
+
+    <Button
+        android:id="@+id/color_select_dicision"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/color_select_b_text"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/color_selcet_decision"
+        android:background="@drawable/frame_style"
+        />
+
+</RelativeLayout>

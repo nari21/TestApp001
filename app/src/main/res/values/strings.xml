@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TestApp001</string>
+    <string name="color_select_title">色選択画面</string>
+    <string name="color_selcet_back">Back</string>
+    <string name="color_selcet_decision">決定</string>
+    <string name="calculator_title">電卓画面</string>
+    <string name="calculator_back">Back</string>
+    <string name="calculator_0">0</string>
+    <string name="calculator_1">1</string>
+    <string name="calculator_2">2</string>
+    <string name="calculator_3">3</string>
+    <string name="calculator_4">4</string>
+    <string name="calculator_5">5</string>
+    <string name="calculator_6">6</string>
+    <string name="calculator_7">7</string>
+    <string name="calculator_8">8</string>
+    <string name="calculator_9">9</string>
+    <string name="calculator_ac">AC</string>
+    <string name="calculator_plus_minus">+/-</string>
+    <string name="calculator_plus">＋</string>
+    <string name="calculator_minus">－</string>
+    <string name="calculator_multi">×</string>
+    <string name="calculator_division">÷</string>
+    <string name="calculator_equal">＝</string>
+    <string name="calculator_percent">%</string>
+    <string name="calculator_dot">.</string>
+</resources>
